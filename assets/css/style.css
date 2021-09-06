@@ -1,0 +1,20 @@
+header {
+    text-align: center;
+    color: white;
+    width: 100%; 
+    background-color: #4f7af4;
+    background-image: linear-gradient(45deg, #4f7af4, #2f0064)
+}
+.forecast-card {
+    border-style: solid;
+    background-color: #353c52;
+    color: white;
+    padding: 5px;
+}
+.forecast-card h1 {
+    text-align: start;
+    font-size: 25px;
+}
+.forecast-row {
+    justify-content: space-between;
+}
