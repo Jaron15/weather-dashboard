@@ -18,3 +18,62 @@ header {
 .forecast-row {
     justify-content: space-between;
 }
+.city-info {
+    border-style: solid;
+}
+#city-input {
+    width: 100%;
+    border-radius: 5px;
+}
+.searchbtn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #4a9ce4;
+    color: white;
+    width: 100%;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px 0 5px 0;
+}
+.history-list {
+    border-top: solid;
+
+}
+.uv{
+    width: 10%;
+    border-radius: 5px;
+}
+.low-uv {
+    background-color: green;
+}
+.mod-uv {
+    background-color: yellow;
+}
+.hi-uv {
+    background-color: red;
+}
+#city-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   flex-direction: column;
+   margin: 0 auto;
+   padding: 0;
+   border-top: black  5px;
+}
+#city-list li {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#city-list li button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #8f9ba5;
+    color: white;
+    width: 100%;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px 0 5px 0;
+}

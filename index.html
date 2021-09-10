@@ -9,10 +9,31 @@
     <title>Weather dashboard</title>
 </head>
 <body>
-    <header> <h1>Weather dashboard</h1></header>
+    <header> <h1>Weather dashboard</h1> </header>
 
 
     <div class="container">
+        <div class="row">
+            <div class="col-sm-3 city-search">
+                <h1>Search for a city:</h1>
+                <input type="text" id="city-input">
+                <button class="searchbtn" onclick="searchFunction()">Search</button>
+                <ul id="city-list">
+
+                </ul>
+            </div>
+            <div class="col-sm-9">
+        <div class="row">
+           <div class="col-sm-12 city-info">
+               <h1 id="city-date">Please search for a city</h1>
+               <p id="current-temp">Temp: </p>
+               <p id="current-wind">Wind: </p>
+               <p id="current-hum">Humidity: </p>
+               <p class="uv" id="uv">UV Index: </p>
+               
+           </div> 
+        </div>
+
        <div class="row">
            <div class="col-sm-12">
                <h1>5-Day Forecasts: </h1>
@@ -20,39 +41,47 @@
        </div> 
        <div class="row forecast-row">
            <div class="col-sm-2 forecast-card">
-            <h1>9/6/2021</h1>
-            <p>Temp: </p>
-            <p>Wind: </p>
-            <p>Humidity: </p>
+            <h1 id="d0">9/6/2021 </h1>
+            <img src="" id="icon0" alt="weather icon">
+            <p id="d0temp">Temp: </p>
+            <p id="d0wind">Wind: </p>
+            <p id="d0hum">Humidity: </p>
            </div>
            <div class="col-sm-2 forecast-card">
-            <h1>9/6/2021</h1>
-            <p>Temp: </p>
-            <p>Wind: </p>
-            <p>Humidity: </p>
+            <h1 id="d1">9/6/2021</h1>
+            <img src="" id="icon1" alt="weather icon">
+            <p id="d1temp">Temp: </p>
+            <p id="d1wind">Wind: </p>
+            <p id="d1hum">Humidity: </p>
         </div>
         <div class="col-sm-2 forecast-card">
-            <h1>9/6/2021</h1>
-            <p>Temp: </p>
-            <p>Wind: </p>
-            <p>Humidity: </p>
+            <h1 id="d2">9/6/2021 </h1>
+            <img src="" id="icon2" alt="weather icon">
+            <p id="d2temp">Temp: </p>
+            <p id="d2wind">Wind: </p>
+            <p id="d2hum">Humidity: </p>
         </div>
         <div class="col-sm-2 forecast-card">
-            <h1>9/6/2021</h1>  
-            <p>Temp: </p>
-            <p>Wind: </p>
-            <p>Humidity: </p> 
+            <h1 id="d3">9/6/2021 </h1>  
+            <img src="" id="icon3" alt="weather icon">
+            <p id="d3temp">Temp: </p>
+            <p id="d3wind"> Wind: </p>
+            <p id="d3hum">Humidity: </p> 
         </div>
         <div class="col-sm-2 forecast-card">
-            <h1>9/6/2021</h1>
-            <p>Temp: </p>
-            <p>Wind: </p>
-            <p>Humidity: </p>
+            <h1 id="d4">9/6/2021 </h1>
+            <img src="" id="icon4" alt="weather icon">
+            <p id="d4temp">Temp: </p>
+            <p id="d4wind">Wind: </p>
+            <p id="d4hum">Humidity: </p>
         </div>
-           
        </div>
-
     </div>
-    
+    </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
