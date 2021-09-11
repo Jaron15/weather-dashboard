@@ -11,7 +11,7 @@ function searchFunction() {
 
     // fetch to get city coordinates
     fetch(
-        'http://api.openweathermap.org/geo/1.0/direct?q=' +
+        'https://api.openweathermap.org/geo/1.0/direct?q=' +
         searchTerm + 
         ',US&limit=1&appid=d9f73f6f6bdc11fc127daf6cb161ebc8'
     ).then(function(response) {
