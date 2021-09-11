@@ -13,4 +13,7 @@ For this project I made a weather dashboard that uses the openweather api to get
 
 ![image](https://user-images.githubusercontent.com/87290877/132928417-9113bfb2-8b01-4458-a1eb-3f1b5ea7413d.png)
 
+# References
+Link to active page: https://jaron15.github.io/weather-dashboard/
 
+Link to repository: https://github.com/Jaron15/weather-dashboard.git
