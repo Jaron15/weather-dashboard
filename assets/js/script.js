@@ -17,7 +17,6 @@ function searchFunction() {
     ).then(function(response) {
         return response.json();
     }).then(function(response) {
-        console.log(response[0]);
          $("#city-date").text(response[0].name + " " + "(" +  moment().format("M/D/YYYY") + ")");
 
          var lat = response[0].lat;
@@ -29,8 +28,6 @@ function searchFunction() {
          .then(function(response) {
              return response.json();
          }).then(function(response) {
-             console.log(response);
-
              var temp = response.current.temp;
              var wind = response.current.wind_speed;
              var humidity = response.current.humidity;
